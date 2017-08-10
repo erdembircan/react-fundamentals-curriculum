@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html{
+  width: 100%;
+  height: 100%;
+}
+
+#app{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  font-family: 'Ubuntu';
+  color: #fff;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+ }
+
+.container, #app{
+  width: 100%;
+  height: 100%;
+}
+
+.navBar{
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f35e4c;
+  padding: 5px;
+  height: 8%
+}
+
+.navBrand{
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+
+.homeContainer{
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.zipForm{
+  display: flex;
+  align-items: center;
+}
+
+::-webkit-input-placeholder{
+  font-style: italic;
+  color: rgba(50.7%, 50.7%, 50.7%, 0.5)
+}
+
+.zipInput{
+  width: 70%;
+  color: rgb(19.8%, 19.8%, 19.8%);
+  padding: 5px;
+  font-size: 20px;
+  border: 1px solid rgb(50.7%, 50.7%, 50.7%);
+  border-radius: 5px;
+}
+
+.button{
+  width: fit-content;
+  color: #fff;
+  font-family: 'Ubuntu';
+  font-size: 15px;
+  margin: 10px;
+  padding: 10px;
+  background: rgb(5.1%, 66.3%, 12.9%);
+  border: 0;
+  border-radius: 5%;
+  transition: all .2s;
+  text-decoration: none;
+}
+
+.button:hover{
+  background: rgb(32.4%, 69.8%, 37.1%);
+}
+
+.button:active{
+  transform: translateY(5px);
+  background: rgb(5.1%, 66.3%, 12.9%);
+}
+
+.header{
+  font-size:45px;
+  font-weight: 200;
+}
+
+.cityHeader{
+  font-size:45px;
+  font-weight: 200;
+  text-align: center;
+  color: #333; 
+}
+
+.forecastContainer{
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.detailContainer{
+   color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+
+
+.preview{
+  margin: 50px;
+}
+
+.previewText{
+  color: rgb(50.2%, 50.2%, 50.2%);
+  font-size: 20px;
+}
+
+ul{
+  margin:0;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+  margin: 20px;
+  color: rgb(50.2%, 50.2%, 50.2%);
+}
+
+.clickableUl{
+  cursor: pointer;
+
+
+}
